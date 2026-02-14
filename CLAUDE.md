@@ -4,24 +4,59 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-anytype-apps is a collection of life management tools built on top of Anytype's HTTP API. It includes a Python export/backup script and documentation for setting up shared Anytype spaces (starting with meal prep).
+anytype-apps is a collection of life management tools built on top of Anytype's HTTP API. It includes a bidirectional backup system (export + restore) and setup scripts for shared Anytype spaces (starting with meal prep).
 
 ## Running
 
 ```bash
-# Install dependencies
-pip install requests python-dotenv
+# Export all spaces to git (auto-commits)
+./export.py
 
-# Run the export/backup script
-python export.py
+# Restore from git back into Anytype
+./restore.py
+
+# Set up meal prep types and sample recipes
+./setup_meal_prep.py
 ```
+
+All scripts require `anytype serve` to be running (or the systemd service).
 
 ## Dependencies
 
 - Python 3.10+ (uses `X | Y` union syntax)
-- `requests` library (HTTP API calls)
-- `python-dotenv` library (env file loading)
-- Anytype CLI (`anytype serve` must be running)
+- `requests` and `python-dotenv` (installed system-wide via apt)
+- Anytype CLI installed at `~/.local/bin/anytype`
+
+## Anytype API Key Learnings
+
+- **Local HTTP API** runs at `http://127.0.0.1:31012` when `anytype serve` is running.
+- **API version header** is required: `Anytype-Version: 2025-05-21`.
+- **Rate limiting**: burst of 60, sustained 1 req/sec. All calls in `anytype_api.py` enforce this.
+- **GET `/v1/spaces/{id}/objects/{id}`** returns a `markdown` field with the full body content. This is more reliable than the `/export/markdown` endpoint, which returns 404 for objects in shared spaces.
+- **PATCH `/v1/spaces/{id}/objects/{id}`** works for updating `name`, `description`, and `body` (markdown).
+- **POST `/v1/spaces/{id}/objects`** requires `type_key` (not type ID) and `name`. Optional: `body`, `description`, `icon`.
+- **POST `/v1/spaces/{id}/types`** requires `name`, `key`, and `plural_name`.
+- **POST `/v1/spaces/{id}/properties`** requires `name`, `key`, and `format`.
+- **Search** (`POST /v1/spaces/{id}/search`) with empty query returns all objects. Paginate with `limit` and `offset`.
+- **Bot accounts** are separate from user accounts. Created via `anytype auth create <name>`. The bot must be invited to a user's space and approved as a member.
+- The bot's account key is the only way to re-authenticate — store it securely.
+
+## Architecture
+
+```
+anytype_api.py       # Thin HTTP API wrapper (get, post, patch, delete + rate limiting)
+export.py            # Export all spaces → export/<space>/<type>/<name>.{json,md}, auto-commits
+restore.py           # Restore from export/ → Anytype (update existing, recreate missing)
+setup_meal_prep.py   # One-time setup: creates Recipe/Meal Plan/Shopping List types + sample data
+.env                 # ANYTYPE_API_URL + ANYTYPE_API_KEY (gitignored)
+export/              # Exported data, committed to git
+  <space>/
+    _types.json      # All type definitions in the space
+    _properties.json # All property definitions in the space
+    <type_key>/
+      <name>.json    # Full object metadata from GET /objects/:id
+      <name>.md      # Markdown body content
+```
 
 ## Coding Style
 
@@ -47,3 +82,8 @@ Copy `.env.example` to `.env` and fill in your values:
 
 - `ANYTYPE_API_URL` — local API endpoint (default `http://127.0.0.1:31012`)
 - `ANYTYPE_API_KEY` — API key from `anytype auth apikey create`
+
+## Current Spaces
+
+- **test** — shared space with meal prep data (Recipe, Meal Plan, Shopping List types)
+- **Graceful Cheddar** — bot's personal space (unused)
