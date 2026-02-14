@@ -1,0 +1,786 @@
+[
+  {
+    "object": "type",
+    "id": "bafyreiftq67bd4pa5ksekgtbi7ggcdrc74yzb7kqokgjlwwagglf7rdkpe",
+    "key": "audio",
+    "name": "Audio",
+    "plural_name": "Audio",
+    "icon": {
+      "format": "icon",
+      "name": "musical-notes",
+      "color": "pink"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+        "key": "added_date",
+        "name": "Added date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreiduq7eq5xbunw65rhtwfoapsqsdaylsdkq5ez4e26s5amuzjjphxq",
+    "key": "bookmark",
+    "name": "Bookmark",
+    "plural_name": "Bookmarks",
+    "icon": {
+      "format": "icon",
+      "name": "bookmark",
+      "color": "red"
+    },
+    "archived": false,
+    "layout": "bookmark",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreiei2lswhjhsxskocwphd6jke6fp3ayq5dtcwt3zanokmz5d4cxqbq",
+        "key": "source",
+        "name": "Source",
+        "format": "url"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreid4rxegczh2hzmddasowguxwv4vte5sa6mbxuwt4rj4a6vr2ugt6i",
+    "key": "chat_derived",
+    "name": "Chat",
+    "plural_name": "Chats",
+    "icon": {
+      "format": "icon",
+      "name": "chatbubble",
+      "color": "blue"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreig3xh37pcyecwt4bbjqnrw5hiya4p4ui5en56d3vrdmexer4rdmgu",
+    "key": "collection",
+    "name": "Collection",
+    "plural_name": "Collections",
+    "icon": {
+      "format": "icon",
+      "name": "layers",
+      "color": "blue"
+    },
+    "archived": false,
+    "layout": "collection",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreidl4flder4oa5amza37jrexlu4fgtruabxjh5r54cgth2clzibeia",
+    "key": "file",
+    "name": "File",
+    "plural_name": "Files",
+    "icon": {
+      "format": "icon",
+      "name": "attach",
+      "color": "blue"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+        "key": "added_date",
+        "name": "Added date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreif6tx53uu7reirns3z7jq6ccbvwkhlb2hw4m3jovupcq7rcijy4hy",
+    "key": "image",
+    "name": "Image",
+    "plural_name": "Images",
+    "icon": {
+      "format": "icon",
+      "name": "image",
+      "color": "lime"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+        "key": "added_date",
+        "name": "Added date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreiaenpyxflcvdbjodlf7jvcvjmkjh5u5vztvxbf3rtbo5ftcvjotim",
+    "key": "note",
+    "name": "Note",
+    "plural_name": "Notes",
+    "icon": {
+      "format": "icon",
+      "name": "create",
+      "color": "yellow"
+    },
+    "archived": false,
+    "layout": "note",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreiax3jwdqw6mxtbut6o37ft6y25cqs3hp7ola5r7soxqrzimimyada",
+    "key": "page",
+    "name": "Page",
+    "plural_name": "Pages",
+    "icon": {
+      "format": "icon",
+      "name": "document",
+      "color": "ice"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreicop4nbxq5cijbr5lwcmwbsldgg3a6kl2pc2j2sgv3puidsw5c3hy",
+    "key": "project",
+    "name": "Project",
+    "plural_name": "Projects",
+    "icon": {
+      "format": "icon",
+      "name": "hammer",
+      "color": "orange"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreidobdlfynaw6m3qaaefvzubmeotlypz7b7jopi5z7g2lqnadc73ge",
+    "key": "set",
+    "name": "Query",
+    "plural_name": "Queries",
+    "icon": {
+      "format": "icon",
+      "name": "search",
+      "color": "purple"
+    },
+    "archived": false,
+    "layout": "set",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreickdmbqwfd5xtudkwmefquin3uj3wdneks6fxpjttmjoipimdhftu",
+    "key": "participant",
+    "name": "Space member",
+    "plural_name": "Space members",
+    "icon": {
+      "format": "icon",
+      "name": "person",
+      "color": "orange"
+    },
+    "archived": false,
+    "layout": "participant",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreigtfwjbtimqyxvlpnlpxl45vx52z3ypebwwyl7tlicva4izfjgyli",
+    "key": "task",
+    "name": "Task",
+    "plural_name": "Tasks",
+    "icon": {
+      "format": "icon",
+      "name": "checkbox",
+      "color": "lime"
+    },
+    "archived": false,
+    "layout": "action",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreicusqx6q5ulb5lzmflwq6o5mi3axyjwypujkcdmnubaunbmf2hl6u",
+        "key": "assignee",
+        "name": "Assignee",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreiapsifl4gf72bjqulnxfpcztoesfzdntet5tuwiyf3lmgf4jcsgma",
+        "key": "done",
+        "name": "Done",
+        "format": "checkbox"
+      },
+      {
+        "object": "property",
+        "id": "bafyreiekhx2j7trdmmepuvtkl6f3ln73fka6ghvdpfw5cf222dkdbwnr7a",
+        "key": "due_date",
+        "name": "Due date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreifikzozah6buaegpktyiqohhkhrqzv7nhug6k6djd4iei2g5vapza",
+        "key": "linked_projects",
+        "name": "Linked Projects",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih6bl5ptzyhocbefmdjosmzzfilcngekidzxbgseojx4dzbetcdqq",
+        "key": "status",
+        "name": "Status",
+        "format": "select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreihrrqivwl7kjat3yd5qsa7agcrmf4it32tdry6tck6ul6n2lx74sq",
+    "key": "template",
+    "name": "Template",
+    "plural_name": "Templates",
+    "icon": {
+      "format": "icon",
+      "name": "copy",
+      "color": "ice"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  {
+    "object": "type",
+    "id": "bafyreigzh5wjeaavtkwufemfbye6yasyzwqv64wj4kgeeukpaktmwqpj5i",
+    "key": "video",
+    "name": "Video",
+    "plural_name": "Video",
+    "icon": {
+      "format": "icon",
+      "name": "videocam",
+      "color": "purple"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+        "key": "added_date",
+        "name": "Added date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  }
+]

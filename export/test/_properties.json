@@ -1,0 +1,233 @@
+[
+  {
+    "object": "property",
+    "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+    "key": "added_date",
+    "name": "Added date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidtkpq3gaqwptpyrgqiatbmpnzdyslhnexcs2z3bxkxwtx3zkhuxi",
+    "key": "audio_album",
+    "name": "Album",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidp5v63jzguagotbcc47xu3kkecdlpuda7k2w74fc335gve6lef7y",
+    "key": "artist",
+    "name": "Artist",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreicusqx6q5ulb5lzmflwq6o5mi3axyjwypujkcdmnubaunbmf2hl6u",
+    "key": "assignee",
+    "name": "Assignee",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+    "key": "backlinks",
+    "name": "Backlinks",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreic4ffsyabcfxsyz7mc5i3rwuaw5viuwrzpkjjkjerlc5gubx6wvba",
+    "key": "aperture",
+    "name": "Camera aperture",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiffj5mswbga6qcm6batnmhum444qwgn6jp3gfk5hicglw7zitkox4",
+    "key": "exposure",
+    "name": "Camera exposure",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreibiboqrz4o5vkawrgnlfsirglpu6lnvwfokpnqxxof4xg2sqtpteu",
+    "key": "camera",
+    "name": "Camera",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+    "key": "creator",
+    "name": "Created by",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+    "key": "created_date",
+    "name": "Creation date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreif5mloms5e7rzlk4ufeh6ud64zsgrarrain5lqvne3qzwl3sm26eq",
+    "key": "67dab1b02bf7cb67453ef126",
+    "name": "Date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihvpywc7aqwu6dowd7jgqcubpyyk5hwd4dcgkty66bsckficiha7y",
+    "key": "description",
+    "name": "Description",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiapsifl4gf72bjqulnxfpcztoesfzdntet5tuwiyf3lmgf4jcsgma",
+    "key": "done",
+    "name": "Done",
+    "format": "checkbox"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiekhx2j7trdmmepuvtkl6f3ln73fka6ghvdpfw5cf222dkdbwnr7a",
+    "key": "due_date",
+    "name": "Due date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiboyrd3q2a2xh5stquppy7gmaif3mk6dovpae7xsyfzd6vust3hmu",
+    "key": "file_ext",
+    "name": "File extension",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreicmdz4sq3wy5cjft7d3i7ptr7qky6m3vbt5rvkytv55eeuvpoonj4",
+    "key": "focal_ratio",
+    "name": "Focal ratio",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifhtbljsykgwcnxqi4oxbzzkul5hqsauyxd3oeqr6bvlwtqvtkt4y",
+    "key": "audio_genre",
+    "name": "Genre",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreieomuzxaaq6kljyfkxvu2s4me5qei5wfaowpfxpoaxnpmnvlnd3yq",
+    "key": "height_in_pixels",
+    "name": "Height",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihezryloq4cp5w62cna3nzsc24btlh2oevosmkwyivdt3gtox7z3q",
+    "key": "camera_iso",
+    "name": "ISO",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreia4uyp3ytic5c3w5p3lfbnbd7ltypdi4fpugm5jaj4cv34dzfhste",
+    "key": "last_message_date",
+    "name": "Last message date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+    "key": "last_modified_by",
+    "name": "Last modified by",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreigqhf5ntbj2djh4mo5evrzcprm6wwwmqx7pvpgugxw7sihhodvere",
+    "key": "last_modified_date",
+    "name": "Last modified date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreigxuyyjeffryidcc7mxktsepkqbcjxaqp3omzad3ydowogkkjtnlq",
+    "key": "last_opened_date",
+    "name": "Last opened date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifikzozah6buaegpktyiqohhkhrqzv7nhug6k6djd4iei2g5vapza",
+    "key": "linked_projects",
+    "name": "Linked Projects",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+    "key": "links",
+    "name": "Links",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreicv2hvs22gydccfvmlin6vubgdzpgibxwyknkgwswb3dlz54i7pp4",
+    "key": "audio_lyrics",
+    "name": "Lyrics",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifplmqsglyllbej3nscsbbyfiay3oosyspypgvjwgobdtmblwx6xe",
+    "key": "released_year",
+    "name": "Released year",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihqauwzuhrhfotxei4xhcgz27bf5nadqafuawgr3czjl7svzqbs4m",
+    "key": "size_in_bytes",
+    "name": "Size",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiei2lswhjhsxskocwphd6jke6fp3ayq5dtcwt3zanokmz5d4cxqbq",
+    "key": "source",
+    "name": "Source",
+    "format": "url"
+  },
+  {
+    "object": "property",
+    "id": "bafyreih6bl5ptzyhocbefmdjosmzzfilcngekidzxbgseojx4dzbetcdqq",
+    "key": "status",
+    "name": "Status",
+    "format": "select"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+    "key": "tag",
+    "name": "Tag",
+    "format": "multi_select"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihu3td6cdwqa2gmklxz64zphz4ldwdwbub7fhdalwmnksvpdpiusq",
+    "key": "audio_album_track_number",
+    "name": "Track #",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreih2aoqcytmubgryh6s7h5i3ekqmftttk4e43mtpfrykmhr2un5tle",
+    "key": "width_in_pixels",
+    "name": "Width",
+    "format": "number"
+  }
+]

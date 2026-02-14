@@ -1,0 +1,198 @@
+[
+  {
+    "object": "property",
+    "id": "bafyreifiglnn4cfjkhyeum7cl4bfmifsclnpcmopmejzgiyx3crt2z4a6m",
+    "key": "added_date",
+    "name": "Added date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihx4vqjutua5p553eyw3gzjugpit4d4vqq6fayymhesosxzjrbiki",
+    "key": "audio_album",
+    "name": "Album",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreicpqv44r3imhfetkdxs2uosbv2swlrdn2cwbxr3mmlgv7ycsg4ss4",
+    "key": "artist",
+    "name": "Artist",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifknboa3ukxpbdbp7ffilxruya35q75ynomtyzyzaznjzh6is7thu",
+    "key": "backlinks",
+    "name": "Backlinks",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihr6p4pbd7q3h4yoe44qilnekpyajtcufsy4z74svivfnlapm2ssm",
+    "key": "aperture",
+    "name": "Camera aperture",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidnnjblxxdb542mpbmsmvv2d5ty5627mlbpul6p5a6pywivpndivm",
+    "key": "exposure",
+    "name": "Camera exposure",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiftqkuxo24vbhmrk42r5o64aaqwgaflaz5x3jotujgep6b4toacje",
+    "key": "camera",
+    "name": "Camera",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifcd26ohnefn73eub73ebzbylo23sjiyv5qnwkuuiqlawzuqi2lby",
+    "key": "creator",
+    "name": "Created by",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidhilke24mmuyts5yo3j73gsvc5d5j7ufaiazlu6c5zsenhhsjnl4",
+    "key": "created_date",
+    "name": "Creation date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreievbyzm7dpgclopfqswq5kpcfyz6jqq2nmfoncdke2ch6l4ep2npe",
+    "key": "description",
+    "name": "Description",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreigjccqem3f27f7sio5cppxke3g3rvueysd5b6eshyhuniwbnqiuzy",
+    "key": "done",
+    "name": "Done",
+    "format": "checkbox"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifjxndezlqwkyyuzbdjeamkw2nzjjy3msacidd2fza54qozcnj5ei",
+    "key": "file_ext",
+    "name": "File extension",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreib3qr4f7jqzxvpxk7o4vssa5ylmsgadew34befregymbqxebu7xhy",
+    "key": "focal_ratio",
+    "name": "Focal ratio",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihr46uze5sfdehq6um2cgyj3xxqcgpqlihymyfll6x6r4zuwdxwm4",
+    "key": "audio_genre",
+    "name": "Genre",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidgur2mm6errf26lalikz5v5ptdnub5jar52gzsbjn6uf3qzlqz7y",
+    "key": "height_in_pixels",
+    "name": "Height",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreicm2kwk3ay62vs2npzibb4ipzyklptdtdpy2nl7byfen65yoyquyq",
+    "key": "camera_iso",
+    "name": "ISO",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiegzkrsgjalqbssd5zbbpvze7xdkcikabqhxhu44ywkiwuib3f2uq",
+    "key": "last_message_date",
+    "name": "Last message date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidcbfwl3yumvhw7amot3upbjk2ldhzfnfcgnvxdofappf62gl4wym",
+    "key": "last_modified_by",
+    "name": "Last modified by",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifkfszxhosn5peugjrquwh3q6dsxxfclc3bdtf56phqizfcc42juu",
+    "key": "last_modified_date",
+    "name": "Last modified date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreig7yljs3ojssdwa6ds5gpa4e3fxiedj2z5yo5o5lgtffw65lh5wym",
+    "key": "last_opened_date",
+    "name": "Last opened date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreieaezso73nddrmdcze2ui4tk3gg7peiybjex434ofyzqotdq2bibi",
+    "key": "links",
+    "name": "Links",
+    "format": "objects"
+  },
+  {
+    "object": "property",
+    "id": "bafyreif5xnnbhkpo4feda3z5pix6btvycdvdaladqlu4ovnmbhykybadl4",
+    "key": "audio_lyrics",
+    "name": "Lyrics",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidrirkeunv273bzukvt4u5sv55u7ljzcsfo64jsg32e3swj4q3q24",
+    "key": "released_year",
+    "name": "Released year",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreia6lsizv3hvu6rn5nraa5lppjbwsblx2vnkunp5jnhpatl5ohx2vi",
+    "key": "size_in_bytes",
+    "name": "Size",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifncd2xublzapvldd7brslc6zxuqspks5jdhpj3vm3kl4he6kmr4i",
+    "key": "source",
+    "name": "Source",
+    "format": "url"
+  },
+  {
+    "object": "property",
+    "id": "bafyreibvjxr26plwjzawuemkiuulsrn75yolprwi5pqnhalotm2ufhzgky",
+    "key": "tag",
+    "name": "Tag",
+    "format": "multi_select"
+  },
+  {
+    "object": "property",
+    "id": "bafyreiglpgvjjyspeojggo45jdsqr6gfji77bnjuojfvyu26vrf2byp3rq",
+    "key": "audio_album_track_number",
+    "name": "Track #",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreidrookktpiinr3i5wb3i2dlmapx6lkqlsnnrhdewdig325iciqv44",
+    "key": "width_in_pixels",
+    "name": "Width",
+    "format": "number"
+  }
+]

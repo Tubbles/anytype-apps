@@ -1,0 +1,90 @@
+{
+  "object": "object",
+  "id": "bafyreihx6ahcc2xyi5c5iwaxpeqtxufxqhbver3ojntybmrprpyopadn3e",
+  "name": "Try more with Anytype",
+  "icon": {
+    "format": "emoji",
+    "emoji": "\ud83d\udef8"
+  },
+  "archived": false,
+  "space_id": "bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq.1tgkqb3hjg356",
+  "snippet": "Collaborate\nAll Spaces and Chats are fully private \u2013 only members you invite can access them.\nGo to Space settings \u2192 Members \u2192 Copy link.\nChoose the type of invite link:\nEditor (full edit access)\nViewer (read-only)\nRequest approval (new members request access, you approve and assign roles)\nEach \u2026",
+  "layout": "basic",
+  "type": {
+    "object": "type",
+    "id": "bafyreiax3jwdqw6mxtbut6o37ft6y25cqs3hp7ola5r7soxqrzimimyada",
+    "key": "page",
+    "name": "Page",
+    "plural_name": "Pages",
+    "icon": {
+      "format": "icon",
+      "name": "document",
+      "color": "ice"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "object": "property",
+      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+      "key": "last_modified_by",
+      "name": "Last modified by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+      "key": "backlinks",
+      "name": "Backlinks",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+      "key": "links",
+      "name": "Links",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+      "key": "created_date",
+      "name": "Creation date",
+      "format": "date",
+      "date": "2026-02-13T23:56:09Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+      "key": "creator",
+      "name": "Created by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_AAFcyybTKZ6w2SatKcBWFRmLBFkjfYmdcE6t13eTL1wWHxU8"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+      "key": "added_date",
+      "name": "Added date",
+      "format": "date",
+      "date": "2026-02-13T23:56:09Z"
+    }
+  ]
+}
