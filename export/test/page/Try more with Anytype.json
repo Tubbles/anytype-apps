@@ -36,13 +36,11 @@
   "properties": [
     {
       "object": "property",
-      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
-      "key": "last_modified_by",
-      "name": "Last modified by",
+      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+      "key": "links",
+      "name": "Links",
       "format": "objects",
-      "objects": [
-        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_"
-      ]
+      "objects": null
     },
     {
       "object": "property",
@@ -54,19 +52,21 @@
     },
     {
       "object": "property",
-      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
-      "key": "links",
-      "name": "Links",
-      "format": "objects",
-      "objects": null
+      "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
+      "key": "added_date",
+      "name": "Added date",
+      "format": "date",
+      "date": "2026-02-13T23:56:09Z"
     },
     {
       "object": "property",
-      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
-      "key": "created_date",
-      "name": "Creation date",
-      "format": "date",
-      "date": "2026-02-13T23:56:09Z"
+      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+      "key": "last_modified_by",
+      "name": "Last modified by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_"
+      ]
     },
     {
       "object": "property",
@@ -80,11 +80,12 @@
     },
     {
       "object": "property",
-      "id": "bafyreie57jlflqp6ewioy7rtqvsw7hhl747jlizjspove6pkeswhm5jb3e",
-      "key": "added_date",
-      "name": "Added date",
+      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+      "key": "created_date",
+      "name": "Creation date",
       "format": "date",
       "date": "2026-02-13T23:56:09Z"
     }
-  ]
+  ],
+  "markdown": "## **Collaborate**   \nAll Spaces and Chats are **fully private** \u2013 only members you invite can access them.   \n- Go to Space settings \u2192 Members \u2192 Copy link.   \n- Choose the type of invite link:   \n    - **Editor** (full edit access)   \n    - **Viewer** (read-only)   \n    - **Request approval** (new members request access, you approve and assign roles)   \n   \nEach Space or Chat can only have one active link at a time. Switching between Editor/Viewer/Request access creates or disables links accordingly.   \n   \n## **Publish to the Web**   \nPublish individual Objects as web pages:    \n- Open any Object \u2192 Tap **\u22ef **(three-dots) menu \u2192 Publish to Web.    \n- Customize the part of the link after the `/` if you\u2019d like.    \n- Upgrade the membership to reserve your personal subdomain on `any.org`   \n   \n   \n --- \n   \n*We're excited for you to start your journey! Feel free to experiment and find what works best for you.*   \n"
 }
