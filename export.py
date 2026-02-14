@@ -42,26 +42,33 @@ def export_space(space: dict) -> Path:
     objects = anytype_api.search_objects(space_id)
     print(f"  Found {len(objects)} objects in '{space_name}'")
 
-    # Export each object
+    # Export each object with full details
     for obj in objects:
         obj_id = obj["id"]
         obj_name = obj.get("name", "untitled")
         obj_type = obj.get("type", {}).get("key", "unknown")
 
-        # Save object metadata as JSON
         obj_dir = space_dir / sanitize_filename(obj_type)
         obj_dir.mkdir(parents=True, exist_ok=True)
+        filename = sanitize_filename(obj_name)
 
-        meta_file = obj_dir / f"{sanitize_filename(obj_name)}.json"
-        meta_file.write_text(json.dumps(obj, indent=2))
-
-        # Try to export as markdown
+        # Fetch full object (includes markdown field)
         try:
-            md_bytes = anytype_api.export_object_markdown(space_id, obj_id)
-            md_file = obj_dir / f"{sanitize_filename(obj_name)}.md"
-            md_file.write_bytes(md_bytes)
+            full = anytype_api.get_object(space_id, obj_id)
+            obj_data = full.get("object", full)
         except Exception as e:
-            print(f"    Warning: could not export '{obj_name}' as markdown: {e}")
+            print(f"    Warning: could not fetch '{obj_name}': {e}")
+            obj_data = obj
+
+        # Save full metadata as JSON
+        meta_file = obj_dir / f"{filename}.json"
+        meta_file.write_text(json.dumps(obj_data, indent=2))
+
+        # Save markdown content if present
+        markdown = obj_data.get("markdown", "")
+        if markdown:
+            md_file = obj_dir / f"{filename}.md"
+            md_file.write_text(f"# {obj_name}\n\n{markdown}")
 
     return space_dir
 
