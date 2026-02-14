@@ -57,6 +57,13 @@
   },
   {
     "object": "property",
+    "id": "bafyreib42znd3xrpd4svey24qwpggjkv3qh67zhfgdig7s45t2kndmmd4i",
+    "key": "cook_time",
+    "name": "Cook Time",
+    "format": "number"
+  },
+  {
+    "object": "property",
     "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
     "key": "creator",
     "name": "Created by",
@@ -67,6 +74,13 @@
     "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
     "key": "created_date",
     "name": "Creation date",
+    "format": "date"
+  },
+  {
+    "object": "property",
+    "id": "bafyreie4hi6lk7uh66c36pmncadcxixvkfdzeubqxqe2vmxlzon2jlhmbq",
+    "key": "meal_date",
+    "name": "Date",
     "format": "date"
   },
   {
@@ -127,6 +141,20 @@
   },
   {
     "object": "property",
+    "id": "bafyreidbja4nzo6rbqhphtp22dok5qrnjpyicqwppegt7l6u73myhcu3pe",
+    "key": "ingredients",
+    "name": "Ingredients",
+    "format": "text"
+  },
+  {
+    "object": "property",
+    "id": "bafyreibfvnuzvzkmfqtgfpmcpycplqkxvke6obeojpicg7mlwusdijbdkq",
+    "key": "instructions",
+    "name": "Instructions",
+    "format": "text"
+  },
+  {
+    "object": "property",
     "id": "bafyreihezryloq4cp5w62cna3nzsc24btlh2oevosmkwyivdt3gtox7z3q",
     "key": "camera_iso",
     "name": "ISO",
@@ -183,9 +211,37 @@
   },
   {
     "object": "property",
+    "id": "bafyreiacha42wq2ouxxb34cdnhbwzyalxw7v6lpc6s7q4dkg6jxrcq5zmi",
+    "key": "meal_type",
+    "name": "Meal Type",
+    "format": "select"
+  },
+  {
+    "object": "property",
+    "id": "bafyreigtmh62h62u27tnwahzsyhvcjrfbwe622cwxntkpqhpjm2hff6uoq",
+    "key": "prep_time",
+    "name": "Prep Time",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreihbmx3apyevr7dyqy7slhukue573wcvyaq3ut5n7jtpbskoobyecu",
+    "key": "recipes",
+    "name": "Recipes",
+    "format": "objects"
+  },
+  {
+    "object": "property",
     "id": "bafyreifplmqsglyllbej3nscsbbyfiay3oosyspypgvjwgobdtmblwx6xe",
     "key": "released_year",
     "name": "Released year",
+    "format": "number"
+  },
+  {
+    "object": "property",
+    "id": "bafyreifl3pl5dnrk36wpn6zgpigu6ikiyu5lsesmvdb2g3rl5224fdpciy",
+    "key": "servings",
+    "name": "Servings",
     "format": "number"
   },
   {

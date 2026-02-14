@@ -1,0 +1,118 @@
+{
+  "object": "object",
+  "id": "bafyreihbvs2keoz33o5iewzy5vwxyc7lptuwhbqvocevqatygcadjbnlky",
+  "name": "Chicken Stir-Fry",
+  "icon": {
+    "format": "emoji",
+    "emoji": "\ud83c\udf73"
+  },
+  "archived": false,
+  "space_id": "bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq.1tgkqb3hjg356",
+  "snippet": "Ingredients\n500g chicken breast, sliced\n2 cups mixed vegetables (bell peppers, broccoli, carrots)\n3 tbsp soy sauce\n1 tbsp sesame oil\n2 cloves garlic, minced\n1 tbsp ginger, grated\nRice for serving\nInstructions\nCook rice according to package directions\nHeat sesame oil in a wok over high heat\nCook \u2026",
+  "layout": "basic",
+  "type": {
+    "object": "type",
+    "id": "bafyreihqg3qtonhzkwvnl3rw242bbbgaqlngrxpzjywd3hozwei5byp7fy",
+    "key": "recipe",
+    "name": "Recipe",
+    "plural_name": "Recipes",
+    "icon": {
+      "format": "emoji",
+      "emoji": "\ud83c\udf73"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "object": "property",
+      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+      "key": "links",
+      "name": "Links",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+      "key": "created_date",
+      "name": "Creation date",
+      "format": "date",
+      "date": "2026-02-14T00:03:58Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+      "key": "backlinks",
+      "name": "Backlinks",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreigqhf5ntbj2djh4mo5evrzcprm6wwwmqx7pvpgugxw7sihhodvere",
+      "key": "last_modified_date",
+      "name": "Last modified date",
+      "format": "date",
+      "date": "2026-02-14T00:03:58Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+      "key": "last_modified_by",
+      "name": "Last modified by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+      "key": "creator",
+      "name": "Created by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    }
+  ],
+  "markdown": "## Ingredients   \n- 500g chicken breast, sliced   \n- 2 cups mixed vegetables (bell peppers, broccoli, carrots)   \n- 3 tbsp soy sauce   \n- 1 tbsp sesame oil   \n- 2 cloves garlic, minced   \n- 1 tbsp ginger, grated   \n- Rice for serving   \n   \n## Instructions   \n1. Cook rice according to package directions   \n2. Heat sesame oil in a wok over high heat   \n3. Cook chicken until golden, about 5 minutes   \n4. Add garlic, ginger, and vegetables, stir-fry 3-4 minutes   \n5. Add soy sauce, toss to combine   \n6. Serve over rice   \n"
+}

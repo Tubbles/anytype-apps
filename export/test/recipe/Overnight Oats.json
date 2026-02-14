@@ -1,0 +1,118 @@
+{
+  "object": "object",
+  "id": "bafyreic2dfjnzrdfkwnrrr7kh7f7dxayhbh3dxjso5a33ttbnmmvgo4u7i",
+  "name": "Overnight Oats",
+  "icon": {
+    "format": "emoji",
+    "emoji": "\ud83c\udf73"
+  },
+  "archived": false,
+  "space_id": "bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq.1tgkqb3hjg356",
+  "snippet": "Ingredients\n1/2 cup rolled oats\n1/2 cup milk\n1/4 cup yogurt\n1 tbsp chia seeds\n1 tbsp honey\nFresh fruit for topping\nInstructions\nMix oats, milk, yogurt, chia seeds, and honey in a jar\nRefrigerate overnight (or at least 4 hours)\nTop with fresh fruit before serving",
+  "layout": "basic",
+  "type": {
+    "object": "type",
+    "id": "bafyreihqg3qtonhzkwvnl3rw242bbbgaqlngrxpzjywd3hozwei5byp7fy",
+    "key": "recipe",
+    "name": "Recipe",
+    "plural_name": "Recipes",
+    "icon": {
+      "format": "emoji",
+      "emoji": "\ud83c\udf73"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "object": "property",
+      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+      "key": "last_modified_by",
+      "name": "Last modified by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+      "key": "links",
+      "name": "Links",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+      "key": "creator",
+      "name": "Created by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+      "key": "created_date",
+      "name": "Creation date",
+      "format": "date",
+      "date": "2026-02-14T00:03:57Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreigqhf5ntbj2djh4mo5evrzcprm6wwwmqx7pvpgugxw7sihhodvere",
+      "key": "last_modified_date",
+      "name": "Last modified date",
+      "format": "date",
+      "date": "2026-02-14T00:03:57Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+      "key": "backlinks",
+      "name": "Backlinks",
+      "format": "objects",
+      "objects": null
+    }
+  ],
+  "markdown": "## Ingredients   \n- 1/2 cup rolled oats   \n- 1/2 cup milk   \n- 1/4 cup yogurt   \n- 1 tbsp chia seeds   \n- 1 tbsp honey   \n- Fresh fruit for topping   \n   \n## Instructions   \n1. Mix oats, milk, yogurt, chia seeds, and honey in a jar   \n2. Refrigerate overnight (or at least 4 hours)   \n3. Top with fresh fruit before serving   \n"
+}

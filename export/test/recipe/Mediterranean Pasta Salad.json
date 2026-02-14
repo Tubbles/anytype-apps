@@ -1,0 +1,118 @@
+{
+  "object": "object",
+  "id": "bafyreiaamivb542ofaygdbsg4xtox4visykhkhdnssllypsnlolqy2wubq",
+  "name": "Mediterranean Pasta Salad",
+  "icon": {
+    "format": "emoji",
+    "emoji": "\ud83c\udf73"
+  },
+  "archived": false,
+  "space_id": "bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq.1tgkqb3hjg356",
+  "snippet": "Ingredients\n400g pasta (fusilli or penne)\n200g cherry tomatoes, halved\n1 cucumber, diced\n150g feta cheese, crumbled\n100g kalamata olives\n1/4 red onion, thinly sliced\n3 tbsp olive oil\n2 tbsp red wine vinegar\nSalt, pepper, oregano to taste\nInstructions\nCook pasta, drain and cool\nCombine all \u2026",
+  "layout": "basic",
+  "type": {
+    "object": "type",
+    "id": "bafyreihqg3qtonhzkwvnl3rw242bbbgaqlngrxpzjywd3hozwei5byp7fy",
+    "key": "recipe",
+    "name": "Recipe",
+    "plural_name": "Recipes",
+    "icon": {
+      "format": "emoji",
+      "emoji": "\ud83c\udf73"
+    },
+    "archived": false,
+    "layout": "basic",
+    "properties": [
+      {
+        "object": "property",
+        "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+        "key": "backlinks",
+        "name": "Backlinks",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidskui4hmf6jvmdrzr7epufzxtk3ukdwkppkf2cpuqqu5esqq4dwy",
+        "key": "tag",
+        "name": "Tag",
+        "format": "multi_select"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+        "key": "created_date",
+        "name": "Creation date",
+        "format": "date"
+      },
+      {
+        "object": "property",
+        "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+        "key": "creator",
+        "name": "Created by",
+        "format": "objects"
+      },
+      {
+        "object": "property",
+        "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+        "key": "links",
+        "name": "Links",
+        "format": "objects"
+      }
+    ]
+  },
+  "properties": [
+    {
+      "object": "property",
+      "id": "bafyreihkpg35zurcnmogw4girwia5wzgwe7mkzhg2f2cndim2n4h2hnueq",
+      "key": "links",
+      "name": "Links",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreih4za7egx2pyvenxljnagqo6jm6xckfxbgqiih6ykwykawrixglse",
+      "key": "backlinks",
+      "name": "Backlinks",
+      "format": "objects",
+      "objects": null
+    },
+    {
+      "object": "property",
+      "id": "bafyreidst4yqcyzf3gzaafr6ww3ocsgu7gwk2ytpek33fr4ypo4pmvabgm",
+      "key": "creator",
+      "name": "Created by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreie3shggxn6gn37ywmcbcr25re5nwvegfypmopmxi25ovib4fseit4",
+      "key": "last_modified_by",
+      "name": "Last modified by",
+      "format": "objects",
+      "objects": [
+        "_participant_bafyreicqqydmxrx4a2huxxcxome4vq3ovn3lgdxvdy7ktiyp5xh5ld4bxq_1tgkqb3hjg356_A9HGaCkxjoinqSnHmwiRoYk65oFeTDLTqG8kAv6YWKtMPCMT"
+      ]
+    },
+    {
+      "object": "property",
+      "id": "bafyreigqhf5ntbj2djh4mo5evrzcprm6wwwmqx7pvpgugxw7sihhodvere",
+      "key": "last_modified_date",
+      "name": "Last modified date",
+      "format": "date",
+      "date": "2026-02-14T00:03:59Z"
+    },
+    {
+      "object": "property",
+      "id": "bafyreidnweos54wmbkd6iwlvrlv4eqw6g2afmgxq6i2eo33wsr4permkga",
+      "key": "created_date",
+      "name": "Creation date",
+      "format": "date",
+      "date": "2026-02-14T00:03:59Z"
+    }
+  ],
+  "markdown": "## Ingredients   \n- 400g pasta (fusilli or penne)   \n- 200g cherry tomatoes, halved   \n- 1 cucumber, diced   \n- 150g feta cheese, crumbled   \n- 100g kalamata olives   \n- 1/4 red onion, thinly sliced   \n- 3 tbsp olive oil   \n- 2 tbsp red wine vinegar   \n- Salt, pepper, oregano to taste   \n   \n## Instructions   \n1. Cook pasta, drain and cool   \n2. Combine all vegetables in a large bowl   \n3. Add cooled pasta   \n4. Whisk olive oil, vinegar, and seasonings   \n5. Toss everything together   \n6. Refrigerate 30 min before serving (tastes better cold)   \n"
+}
