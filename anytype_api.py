@@ -107,3 +107,32 @@ def create_type(space_id: str, name: str, key: str, **kwargs) -> dict:
 def create_property(space_id: str, name: str, key: str, format: str, **kwargs) -> dict:
     body = {"name": name, "key": key, "format": format, **kwargs}
     return post(f"/spaces/{space_id}/properties", body)
+
+
+def patch(path: str, body: dict | None = None) -> dict:
+    _rate_limit()
+    r = requests.patch(f"{API_URL}/v1{path}", headers=_headers(), json=body or {})
+    r.raise_for_status()
+    return r.json()
+
+
+def update_object(space_id: str, object_id: str, **fields) -> dict:
+    return patch(f"/spaces/{space_id}/objects/{object_id}", fields)
+
+
+def delete_object(space_id: str, object_id: str) -> dict:
+    _rate_limit()
+    r = requests.delete(
+        f"{API_URL}/v1/spaces/{space_id}/objects/{object_id}",
+        headers=_headers(),
+    )
+    r.raise_for_status()
+    return r.json()
+
+
+def object_exists(space_id: str, object_id: str) -> bool:
+    try:
+        get_object(space_id, object_id)
+        return True
+    except requests.HTTPError:
+        return False
