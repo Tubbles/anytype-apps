@@ -97,6 +97,16 @@ Copy `.env.example` to `.env` and fill in your values:
 - `TELEGRAM_ALLOWED_USERS` — comma-separated Telegram user IDs
 - `ANTHROPIC_API_KEY` — Claude API key for AI-powered free-text handling
 
+## Bot Commands
+
+- `/recipes` — list all recipes
+- `/plan_week [exclude...]` — generate a random 7-day meal plan (optionally excluding recipes)
+- `/whats_for_dinner` — show today's planned meal
+- `/shopping_list` — aggregated ingredients from this week's plan
+- `/add_recipe Name` — create an empty recipe in Anytype
+- `/swap <day> [exclude...]` — replace one day's meal
+- Free text messages are handled by Claude AI (tool-use agent loop with `MAX_TOOL_ROUNDS=5`)
+
 ## Current Spaces
 
 - **test** — shared space with meal prep data (Recipe, Meal Plan, Shopping List types)
