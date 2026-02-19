@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-anytype-apps is a collection of life management tools built on top of Anytype's HTTP API. It includes a bidirectional backup system (export + restore) and setup scripts for shared Anytype spaces (starting with meal prep).
+anytype-apps is a collection of life management tools built on top of Anytype's HTTP API. It includes a bidirectional backup system (export + restore), setup scripts for shared Anytype spaces, and a Claude-powered Telegram bot for meal planning. See [ARCHITECTURE.md](ARCHITECTURE.md) for the full system design.
 
 ## Running
 
@@ -17,6 +17,9 @@ anytype-apps is a collection of life management tools built on top of Anytype's 
 
 # Set up meal prep types and sample recipes
 ./setup_meal_prep.py
+
+# Run the Telegram bot
+python bot.py
 ```
 
 All scripts require `anytype serve` to be running (or the systemd service).
@@ -25,6 +28,8 @@ All scripts require `anytype serve` to be running (or the systemd service).
 
 - Python 3.10+ (uses `X | Y` union syntax)
 - `requests` and `python-dotenv` (installed system-wide via apt)
+- `python-telegram-bot` — async Telegram bot framework
+- `anthropic` — Claude API client for AI-powered free-text handling
 - Anytype CLI installed at `~/.local/bin/anytype`
 
 ## Anytype API Key Learnings
@@ -43,12 +48,18 @@ All scripts require `anytype serve` to be running (or the systemd service).
 
 ## Architecture
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the full system design including the Telegram bot and Claude integration.
+
 ```
 anytype_api.py       # Thin HTTP API wrapper (get, post, patch, delete + rate limiting)
 export.py            # Export all spaces → export/<space>/<type>/<name>.{json,md}, auto-commits
 restore.py           # Restore from export/ → Anytype (update existing, recreate missing)
 setup_meal_prep.py   # One-time setup: creates Recipe/Meal Plan/Shopping List types + sample data
-.env                 # ANYTYPE_API_URL + ANYTYPE_API_KEY (gitignored)
+bot.py               # Telegram bot entry point
+bot_handlers.py      # Command handlers (/plan_week, /recipes, etc.)
+bot_ai.py            # Claude API integration — system prompt, tool defs, message loop
+meal_planner.py      # Pure logic — random plan generation, ingredient aggregation, dedup
+.env                 # API keys, bot token, allowed users (gitignored)
 export/              # Exported data, committed to git
   <space>/
     _types.json      # All type definitions in the space
@@ -82,6 +93,9 @@ Copy `.env.example` to `.env` and fill in your values:
 
 - `ANYTYPE_API_URL` — local API endpoint (default `http://127.0.0.1:31012`)
 - `ANYTYPE_API_KEY` — API key from `anytype auth apikey create`
+- `TELEGRAM_BOT_TOKEN` — from @BotFather on Telegram
+- `TELEGRAM_ALLOWED_USERS` — comma-separated Telegram user IDs
+- `ANTHROPIC_API_KEY` — Claude API key for AI-powered free-text handling
 
 ## Current Spaces
 
